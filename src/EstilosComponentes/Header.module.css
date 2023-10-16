@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Share Tech;
+    src: url(../Fontes/ShareTech-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    src: url(../Fontes/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Signika;
+    src: url(../Fontes/Signika-VariableFont_GRAD\,wght.ttf);
+}
+
+.Header {
+    width: 100%;
+    height: 75px;
+    background-color: #8EBBA7;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 165px;
+    height: 60px;
+
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.MenuSuperior {
+    width: 550px;
+    height: 60px;
+
+}
+
+.Links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.Links a {
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Signika;
+}
+
+.Links a:hover{
+    color: rgb(103, 245, 186);
+    transition: 0.5S;
+}
+
+.Botoes {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BotaoAcessar {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.BotaoAcessar:hover{
+    color: white;
+    transition: 0.5S;
+}
+
+.BotaoAbrirConta {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #276359;
+    color: white;
+}
+
+.BotaoAbrirConta:hover{
+    color: #276359;
+    background-color: white;
+    transition: 0.5S;
+}

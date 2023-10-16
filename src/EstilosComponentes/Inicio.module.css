@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Share Tech;
+    src: url(../Fontes/ShareTech-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    src: url(../Fontes/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Signika;
+    src: url(../Fontes/Signika-VariableFont_GRAD\,wght.ttf);
+}
+
+
+.Back {
+    width: 100%;
+    height: 680px;
+    background-image: url(../Img/Background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Celular1 {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 130px;
+    margin-right: 50px;
+}
+
+.Celular1 img {
+    width: 130%;
+    height: 130%;
+}
+
+.textoInicio {
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.TextoInicio {
+    text-align: left;
+    color: white;
+    font-size: 45px;
+    font-family: Share Tech;
+    margin-top: 50px;
+
+
+}
+
+.Caixabotoes {
+    margin-top: 15px;
+    width: 450px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botaoinicio1 {
+    width: 170px;
+    height: 50px;
+    background-color: #276359;
+    border-radius: 15px;
+    color: white;
+    font-family: Signika;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.botaoinicio1:hover{
+    color: #276359;
+    background-color: white;
+    transition: 0.5S;
+}
+
+.botaosaibamais1 {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    color: #276359;
+    font-family: Signika;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.botaosaibamais1:hover{
+    color: white;
+    background-color: #276359;
+    transition: 0.5S;
+}
