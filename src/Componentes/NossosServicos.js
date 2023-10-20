@@ -1,11 +1,20 @@
 import Style from '../EstilosComponentes/NossosServicos.module.css'
+import {React, useEffect} from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function NossosServicos() {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
 
         <div className={Style.NossosServicos}>
             <h1 className={Style.TituloNossosServicos}>Nossos Serviços</h1>
-            <div className={Style.CaixaServicos}>
+            <div className={Style.CaixaServicos} data-aos="fade-down" data-aos-duration="1500">
                 <div className={Style.Servico1}>
                     <h1 className={Style.TituloServico1}>Conta <span className={Style.Diferente2}>Digital</span></h1>
                     <p className={Style.TextoServico1}>Sua conta grátis e 100% digital, sem a burocracia dos antigos sistemas</p>

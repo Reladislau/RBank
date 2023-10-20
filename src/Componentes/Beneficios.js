@@ -4,7 +4,16 @@ import IconeBeneficio2 from '../Img/IconeBeneficio2.png'
 import IconeBeneficio3 from '../Img/IconeBeneficio3.png'
 import IconeBeneficio4 from '../Img/IconeBeneficio4.png'
 import Pessoa1 from '../Img/Pessoa1.png'
+import {React, useEffect} from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 function Beneficios() {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
 
         <div className={Style.Beneficios}>
@@ -33,7 +42,8 @@ function Beneficios() {
                     </div>
                 </div>
             </div>
-            <div className={Style.Pessoa1}>
+            <div className={Style.Pessoa1} data-aos="fade-left" data-aos-duration="1500">
+                
                 <img src={Pessoa1} alt="" />
             </div>
         </div>

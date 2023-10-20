@@ -86,8 +86,8 @@
 
 .links1 a:hover,
 .links2 a:hover {
-    color: darkcyan;
-    transition: 0.5S;
+    color: rgb(103, 245, 186);
+    transition: 0.3S;
 }
 
 .Linha {
