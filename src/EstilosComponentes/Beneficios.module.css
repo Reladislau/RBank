@@ -64,7 +64,7 @@
     flex-direction: column;
     align-items: top;
     justify-content: left;
-
+    transition: 1S;
 }
 
 .Caixinha1:hover,
